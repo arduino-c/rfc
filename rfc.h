@@ -13,7 +13,7 @@
 #define OPC_MAXELEMENTS	32
 #define OPC_NAMEMAXLEN	16
 
-int opc_bind(char *name, void *keeper);
-int opc_serve(char *s);
+int rfc_bind(char *name, void *keeper);
+int rfc_serve(char *s);
 
 #endif /* __OPC__ */
